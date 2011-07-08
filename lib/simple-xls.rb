@@ -1,14 +1,16 @@
 class SimpleXLS
   attr_accessor :headers, :rows
   
-  def initialize(headers = [])
+  def initialize(headers)
+    raise ArugmentError('Row must be an Array') unless headers.is_a?(Array)
+
+    @headers = headers.nil? ? [] : headers.dup
     @rows = []
-    @headers = headers
   end
   
   def push(row)
-    raise ArgumentError unless row.is_a?(Array)
-    @rows.push(row)
+    raise ArugmentError('Row must be an Array') unless row.is_a?(Array)
+    @rows.push(row.dup)
   end
   
   def to_s

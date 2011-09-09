@@ -1,7 +1,7 @@
 Simple XLS
 ----------
 
-This gem basically builds HTML tables thus allowing you to easily import data into Excel, OpenOffice and others.
+This gem builds HTML tables which makes easy import data into Excel, OpenOffice and others applications of this nature. The HTML can also be used to respond to web requests as well.
 
 Example
 -------

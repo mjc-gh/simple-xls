@@ -1,4 +1,4 @@
-require File.expand_path File.join(File.dirname(__FILE__), '..', 'lib', 'simple-xls')
+require File.expand_path('../../lib/simple-xls.rb', __FILE__)
 require 'test/unit'
 
 class SimpleXlsTest < Test::Unit::TestCase

@@ -1,10 +1,10 @@
-Simple XLS
-----------
+# Simple XLS
+
 
 This gem builds HTML tables which makes easy import data into Excel, OpenOffice and others applications of this nature. The HTML can also be used to respond to web requests as well.
 
-Example
--------
+## Example
+
 
     xls = SimpleXLS.new ['header1','header2','header3']
 

@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
-  s.name = "simple-xls"
+  s.name = "simplexls"
   s.version = "0.1.1"
-  s.date = "2010-12-04"
+  s.date = "2011-09-27"
   s.authors = ["mikeycgto"]
   s.email = "mikeycgto@gmail.com"
   s.homepage = "http://github.com/mikeycgto/simple-xls"

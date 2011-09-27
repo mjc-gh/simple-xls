@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.summary = "Simple XLS"
   
   s.files = [
-    "README",
-    "lib/simple-xls.rb"
+    "README.markdown",
+    "lib/simplexls.rb"
   ]
 
   s.require_paths = ["lib"]
